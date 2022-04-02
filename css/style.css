@@ -1,0 +1,103 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin:0px;
+}
+
+body img{
+  position:absolute;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#content {
+  color : white;
+}
+
+#calender{
+  padding-top:50px;
+  text-align: center;
+}
+#date{
+  color: whitesmoke;
+  font-size:100px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#clock{
+  color: whitesmoke;
+  font-size:80px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#loginform{
+  padding-top:20px;
+  text-align: center;
+}
+#loginform button, #logoutform button{
+  height:25px;
+  border:0px;
+  border-radius: 5px;
+  background-color:black;
+  color:whitesmoke;
+}
+#loginform input{
+  height:25px;
+  background-color: transparent;
+  border: 0px transparent solid;
+  color:whitesmoke;
+}
+#loginform ::placeholder{
+  color:whitesmoke;
+}
+#logoutform{
+  text-align: center;
+  color: whitesmoke;
+  font-size:50px;
+  padding-top:20px;
+}
+#quote{
+  text-align: center;
+  color:whitesmoke;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+#todoform{
+  text-align: center;
+  padding-top:20px;
+}
+#todoform input{
+  width: 500px;
+  height:100px;
+  background-color: transparent;
+  border: none;
+  border-bottom:whitesmoke 7px solid;
+  font-size: 80px;
+  color:whitesmoke;
+}
+#todoform ::placeholder{
+  color:whitesmoke;
+  text-align: center;
+  font-size: 60px;
+}
+#toDoList{
+  text-align: left;
+  color:whitesmoke;
+  list-style: none;
+  padding-left:700px;
+}
+#toDoList li{
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+#toDoList li button{
+  font-size: 20px;
+  height:20px;
+  border:0px;
+  border-radius: 5px;
+  background-color:transparent;
+  color:whitesmoke;
+}

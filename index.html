@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>MOMENTUM</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <body>
+    <div id="photodiv"></div>
+      <div id="calender">
+        <div id="date"> </div>
+        <div id="clock"> </div>
+      </div>
+      <form id="loginform">
+        <input
+          required
+          maxlength="10"
+          type="text"
+          placeholder="이름을 적어주세요."
+        />
+        <button>Log-in</button>
+      </form>
+      <form id="logoutform" class="hidden">
+        <span id="welcome">welcome</span>
+        <button>Log-out</button>
+      </form>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+      <form id="todoform">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="할일을 적어보세요."
+        />
+      </form>
+      <ul id="toDoList">
+      </ul>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
