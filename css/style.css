@@ -83,10 +83,10 @@ body img{
   font-size: 60px;
 }
 #toDoList{
-  text-align: left;
+  text-align: center;
   color:whitesmoke;
   list-style: none;
-  padding-left:700px;
+  padding:0px;
 }
 #toDoList li{
   margin-bottom: 20px;
@@ -100,4 +100,22 @@ body img{
   border-radius: 5px;
   background-color:transparent;
   color:whitesmoke;
+}
+
+@media(max-width: 800px){
+  #date{
+    font-size: 60px;
+  }
+  #clock{
+    font-size: 40px;
+  }
+  #todoform input{
+    width: 300px;
+    height:60px;
+    border-bottom: whitesmoke solid 4px;
+    font-size: 40px;
+  }
+  #todoform ::placeholder{
+    font-size: 40px;
+  }
 }

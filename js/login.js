@@ -37,12 +37,12 @@ function printLogin(){
 }
 
 if(savedName !== null){
-  logoutform.addEventListener("submit", userLogout)
-}
+  logoutform.addEventListener("click", userLogout)
+};
 
 
 
-
+//왜 잘 작동을 안하는지 모르겠다. event.prventDefault가 될때도 있고 안될때도 있고 왜 이런지,, 참내..
 
 
 
